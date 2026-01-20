@@ -14,7 +14,7 @@ function Card({ movie }) {
     console.log(movie)
   }
   return (
-    <div className="w-full max-w-xs bg-gray-800 text-white rounded-3xl overflow-hidden shadow-lg transition-transform hover:scale-105 duration-500 m-4 animate-fade-in-up">
+    <div className="w-full max-w-xs text-white border border-white rounded-3xl overflow-hidden shadow-lg transition-transform hover:scale-105 duration-500 m-4 animate-fade-in-up">
       <div className="relative h-80 overflow-hidden">
         <img
           src={movie.Poster !== 'N/A' ? movie.Poster : 'https://via.placeholder.com/300x450?text=No+Image'}
@@ -38,7 +38,7 @@ function Card({ movie }) {
           <span>{movie.Year}</span>
 
         </div>
-        <button className="mt-2 w-full bg-indigo-600 hover:bg-indigo-500 text-sm py-2 rounded-xl transition-all duration-300">
+        <button className="mt-2 w-full bg-gradient-to-br from-purple-500 via-blue-500 to-pink-500 hover:bg-indigo-500 text-sm py-2 rounded-xl transition-all duration-300">
           View Details
         </button>
       </div>
