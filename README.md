@@ -1,4 +1,4 @@
-# Movie App
+# MovieHub
 
 ## Overview
 This is a Movie App built using React and Vite. It allows users to browse, search, and view details about various movies. The application features a modern UI and leverages the power of React for a seamless user experience.
@@ -37,3 +37,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 This project is licensed under the MIT License.
+
+
+----------------------------------------- Made with ❤️ by Manav Valani ------------------------------------------
